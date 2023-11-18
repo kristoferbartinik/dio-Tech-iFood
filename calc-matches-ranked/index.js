@@ -1,5 +1,5 @@
 function saldoRankeadas(vitorias, derrotas){
-    
+    saldo = vitorias - derrotas
 
     if(vitorias <= 10){
         return "ferro"
